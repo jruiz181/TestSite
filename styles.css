@@ -13,15 +13,19 @@ div.col-1-3{width: 33%;}
 div.col-2-3{width: 67%;}
 /* pretty things */
 html{
-    background-color: rgb(24, 25, 25);
+    background-color: rgb(32, 32, 32);
     /* background-color: white; */
 }
 div.col-1-1#socialmedia a img{
 width: 30px;
 }
 div.col-1-1#jerry3 img{
+    /* padding-top: 20px; */
+    margin-top: 20px;
     border-radius: 50%;
     width:200px;
+    border: cyan 3px solid;
+    margin-left: 90px
 }
 /* Horizontal navigation */
 /* nav ul li{
@@ -38,21 +42,81 @@ nav ul li a{
 div#topNav nav{
     width: 100%;
     display: block;
+    font-family: 'oleo script'
 }
 div#topNav nav ul{
     list-style-type: none;
     display: block;
+    border-radius: 50%;
 }
 div#topNav nav ul li{
     float: left;
-    width: 25%;
+    width: 24.5%;
     margin-right: auto;
     margin-left: auto;
     align-content: center;
     text-align: center;
-    background-color: rgb(16, 17, 17);
+    background-color: rgb(56, 58, 58);
+    border: 1px black solid;
+
+
 }
+
 div#topNav nav ul li a{
     text-decoration: none;
     display: block;
+    color: cyan;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    font-size: 30px;
+}
+div#topNav nav ul li a:hover{
+    background-color: dimgray ;
+    color: white;
+    
+}
+
+div#topNav nav ul li#first a:hover{
+    background-color: dimgray ;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;    
+}
+div#topNav nav ul li#last a:hover{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1{
+    margin-left: 42px;
+    font-size: 5em;
+    color: cyan;
+    text-shadow: 5px 0px 15px cyan;
+    font-family: 'Rubik Mono One', sans-serif;
+    border: 5px cyan solid;
+    box-shadow: 5px 0px 15px cyan;
+    border-radius: 20px
+
+
+
+}
+ul li#first{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+ul li#last{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+p{
+    color: rgb(207, 212, 216)
+}
+
+h2{
+    color: hsl(180, 100%, 50%);
+    text-shadow: black 5px 5px 5px
+}
+h2#wert{
+    margin-left: 42px;
+    
 }
