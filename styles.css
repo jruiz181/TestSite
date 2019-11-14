@@ -14,6 +14,9 @@ div.col-2-3{width: 67%;}
 /* pretty things */
 html{
     background-color: rgb(32, 32, 32);
+    margin-right: 20px;
+    padding-top: 0%;
+    margin-top: 0;
     /* background-color: white; */
 }
 div.col-1-1#socialmedia a img{
@@ -51,7 +54,7 @@ div#topNav nav ul{
 }
 div#topNav nav ul li{
     float: left;
-    width: 24.5%;
+    width: 24.7%;
     margin-right: auto;
     margin-left: auto;
     align-content: center;
@@ -86,7 +89,7 @@ div#topNav nav ul li#last a:hover{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-h1{
+h1#intro{
     margin-left: 42px;
     font-size: 5em;
     color: cyan;
@@ -112,11 +115,47 @@ p{
     color: rgb(207, 212, 216)
 }
 
-h2{
+h2,h3{
     color: hsl(180, 100%, 50%);
     text-shadow: black 5px 5px 5px
 }
 h2#wert{
-    margin-left: 42px;
+    font-size: 5em;
+    text-align: center;
+      
+    
+}
+img#jer{
+    height:100px;
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+     
+    /* margin-left: 665px;
+    margin-top:none;
+    padding-top: 0% */
+}
+
+a#mail{
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+
+}
+a#mail:hover{
+    color: cyan;
+    text-shadow: cyan -2px -2px 5px;
+    text-shadow: cyan 2px 2px 5px;
+}
+
+h1#aboutme{
+    font-size: 6em;
+    text-align: center;
+    color: cyan;
+
+}
+
+
+@media only screen and (max-width: 480px){
     
 }
