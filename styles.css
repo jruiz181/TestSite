@@ -152,9 +152,24 @@ h1#aboutme{
     font-size: 6em;
     text-align: center;
     color: cyan;
+    margin: 10px
+
+}
+p#p{
+    text-align: center;
+    font-size: 2em;
 
 }
 
+ section#poop{
+    float: left;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+img#badge1{
+padding-left: 500px
+}
 
 @media only screen and (max-width: 480px){
     
