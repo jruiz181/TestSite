@@ -171,6 +171,30 @@ img#badge1{
 padding-left: 500px
 }
 
+h1#pastWork{
+    color:cyan;
+    font-size: 4em;
+    text-align: center ;
+}
+
+img#pw{
+    height: 400px;
+    width: 400px;
+margin-left: 200px;
+border: cyan 3px solid;
+
+
+
+}
+
+h1#skills{
+    color: cyan;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: cyan 0px 0px 20px;
+
+}
+
 @media only screen and (max-width: 480px){
     
 }
