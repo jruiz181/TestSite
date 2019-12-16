@@ -19,9 +19,17 @@ html{
     margin-top: 0;
     /* background-color: white; */
 }
+
 div.col-1-1#socialmedia a img{
 width: 30px;
+align-items: center;
 }
+div.col-1-1#socialmedia{
+    text-align: center;
+    padding-left: 400px;
+    font-size: 1em;
+}
+
 div.col-1-1#jerry3 img{
     /* padding-top: 20px; */
     margin-top: 20px;
