@@ -26,7 +26,7 @@ align-items: center;
 }
 div.col-1-1#socialmedia{
     text-align: center;
-    padding-left: 400px;
+
     font-size: 1em;
 }
 
@@ -35,7 +35,7 @@ div.col-1-1#jerry3 img{
     margin-top: 20px;
     border-radius: 50%;
     width:200px;
-    border: cyan 3px solid;
+    border: #27FB6B 3px solid;
     margin-left: 90px
 }
 /* Horizontal navigation */
@@ -76,7 +76,7 @@ div#topNav nav ul li{
 div#topNav nav ul li a{
     text-decoration: none;
     display: block;
-    color: cyan;
+    color: #27FB6B;
     padding-top: 10px;
     padding-bottom: 10px ;
     font-size: 30px;
@@ -100,11 +100,11 @@ div#topNav nav ul li#last a:hover{
 h1#intro{
     margin-left: 42px;
     font-size: 5em;
-    color: cyan;
-    text-shadow: 5px 0px 15px cyan;
+    color: #27FB6B;
+    text-shadow: 5px 0px 15px #27FB6B;
     font-family: 'Rubik Mono One', sans-serif;
-    border: 5px cyan solid;
-    box-shadow: 5px 0px 15px cyan;
+    border: 5px #27FB6B solid;
+    box-shadow: 5px 0px 15px #27FB6B;
     border-radius: 20px
 
 
@@ -124,7 +124,7 @@ p{
 }
 
 h2,h3{
-    color: hsl(180, 100%, 50%);
+    color: #27FB6B;
     text-shadow: black 5px 5px 5px
 }
 h2#wert{
@@ -147,19 +147,19 @@ img#jer{
 
 a#mail{
     text-decoration: none;
-    color: rgb(0, 255, 255);
+    color: #27FB6B;
 
 }
 a#mail:hover{
-    color: cyan;
-    text-shadow: cyan -2px -2px 5px;
-    text-shadow: cyan 2px 2px 5px;
+    color: #27FB6B;
+    text-shadow: #27FB6B -2px -2px 5px;
+    text-shadow: #27FB6B 2px 2px 5px;
 }
 
 h1#aboutme{
     font-size: 6em;
     text-align: center;
-    color: cyan;
+    color: #27FB6B;
     margin: 10px
 
 }
@@ -180,7 +180,7 @@ padding-left: 500px
 }
 
 h1#pastWork{
-    color:cyan;
+    color:#27FB6B;
     font-size: 4em;
     text-align: center ;
 }
@@ -189,17 +189,17 @@ img#pw{
     height: 400px;
     width: 400px;
 margin-left: 200px;
-border: cyan 3px solid;
+border: #27FB6B 3px solid;
 
 
 
 }
 
 h1#skills{
-    color: cyan;
+    color: #27FB6B;
     font-size: 4em;
     text-align: center;
-    text-shadow: cyan 0px 0px 20px;
+    text-shadow: #27FB6B 0px 0px 20px;
 
 }
 
